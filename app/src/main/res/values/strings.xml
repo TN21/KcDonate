@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">KcDonate</string>
-    <string name="donateNow">Donate Now !</string>
+    <string name="join">Join Our Family</string>
+    <string name="cash">Cash Donation</string>
+    <string name="group">Group Donation</string>
+    <string name="dropOff">Drop Off Location</string>
+    <string name="pickup">Pick Up Service</string>
+    <string name="help">Need Help?</string>
+    <string name="contact">Contact Us</string>
+    <string name="selection">Welcome to KcDonate</string>
+    <string name="title_activity_help">help</string>
+
 </resources>
