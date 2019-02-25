@@ -9,5 +9,10 @@
     <string name="contact">Contact Us</string>
     <string name="selection">Welcome to KcDonate</string>
     <string name="title_activity_help">help</string>
+    <string name="moneyDonateNow">Donate Now !</string>
+    <string name="fiveDollar">$ 5 </string>
+    <string name="donatePrice">0</string>
+    <string name="tenDollar">$ 10</string>
+    <string name="twentyDollar">$ 20</string>
 
 </resources>
