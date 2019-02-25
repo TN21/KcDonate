@@ -45,7 +45,6 @@ public class MoneyDonation extends AppCompatActivity {
                 donatePriceTx.setText("20");
             }
         });
-
-
+        
     }
 }
