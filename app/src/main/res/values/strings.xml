@@ -14,5 +14,9 @@
     <string name="donatePrice">0</string>
     <string name="tenDollar">$ 10</string>
     <string name="twentyDollar">$ 20</string>
-
+    <string name="EnterAmount">Please Enter the Amount</string>
+    <string name="dollarSign">$</string>
+    <string name="otherHint">Enter the Amount</string>
+    <string name="textNumber">0</string>
+    <string name="totalAmountView"></string>
 </resources>
