@@ -6,10 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.content.DialogInterface;
 
-public class MoneyDonation extends AppCompatActivity {
+public class KcHospital extends AppCompatActivity {
 
     public Button fiveDollarBtn;
     public Button tenDollarBtn;
@@ -21,9 +20,7 @@ public class MoneyDonation extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_money_donation);
-
-
+        setContentView(R.layout.activity_kc_hospital);
         fiveDollarBtn = findViewById(R.id.fiveDollarBtn);
         tenDollarBtn = findViewById(R.id.tenDollarBtn);
         twentyDollarBtn = findViewById(R.id.twentyDollarBtn);
@@ -61,24 +58,21 @@ public class MoneyDonation extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                        donateAmount = Integer.parseInt(enterAmount.getText().toString());
-                        AlertDialog.Builder builder = new AlertDialog.Builder(MoneyDonation.this);
-                        builder.setTitle("You will be donate $" + donateAmount);
-                        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                donateAmount = 0;
-                            }
-                        });
-                        builder.show();
+                donateAmount = Integer.parseInt(enterAmount.getText().toString());
+                AlertDialog.Builder builder = new AlertDialog.Builder(KcHospital.this);
+                builder.setTitle("You will be donate $" + donateAmount);
+                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        donateAmount = 0;
+                    }
+                });
+                builder.show();
 
 
 
 
-                }
-            });
-
-
+            }
+        });
     }
-
 }

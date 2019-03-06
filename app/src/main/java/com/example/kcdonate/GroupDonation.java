@@ -1,13 +1,16 @@
 package com.example.kcdonate;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
 
 
 public class GroupDonation extends AppCompatActivity {
@@ -25,9 +28,18 @@ public class GroupDonation extends AppCompatActivity {
         listView =  findViewById(R.id.listView); //listview ID
         CustomAdaptor customAdaptor = new CustomAdaptor(); //custom list view
         listView.setAdapter(customAdaptor);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+            public  void onItemClick(AdapterView<?> parent, View view, int position, long id){
+                if (position==0){
+                    Intent myIntent = new Intent(view.getContext(),KcHospital.class);
+                    startActivityForResult(myIntent,0);
+                }
+            } //ListView button to different pages
 
+
+
+        });
     }
-
     class CustomAdaptor extends BaseAdapter{    //create Custom listview class
 
         @Override
