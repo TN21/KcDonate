@@ -19,4 +19,6 @@
     <string name="otherHint">Enter the Amount</string>
     <string name="textNumber">0</string>
     <string name="totalAmountView"></string>
+    <string name="dropOffLocTx1">drop off location 1</string>
+    <string name="dropOffLocBtnTx1">Take me there</string>
 </resources>
