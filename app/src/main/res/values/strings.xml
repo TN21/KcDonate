@@ -44,6 +44,7 @@
     <string name="houseWare">House Ware</string>
     <string name="furniture">Furniture</string>
     <string name="electronic">Electronic Device</string>
-    <string name="sportEquipment">Sport Equipment</string>
+    <string name="others">Others</string>
     <string name="totalItems">Total Items</string>
+    <string name="totalItemsSum"></string>
 </resources>
