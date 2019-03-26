@@ -19,6 +19,31 @@
     <string name="otherHint">Enter the Amount</string>
     <string name="textNumber">0</string>
     <string name="totalAmountView"></string>
-    <string name="dropOffLocTx1">drop off location 1</string>
+    <string name="dropOffLocTx1">North KC Drop Off Location:
+        \n Price Chopper
+        \n 9107 NW, MO-45
+        \n Parkville, MO 64152 </string>
     <string name="dropOffLocBtnTx1">Take me there</string>
+    <string name="dropOffLocTx2">
+        \n Whole Food Market
+        \n 301 E 51st
+        \n Kansas City MO 64112 </string>
+    <string name="dropOffLocBtnTx2">Take me there</string>
+    <string name="pickUpService">Need a pick up service?</string>
+    <string name="pickUpServiceInfo">
+           We will need your basic contact information and donate information.
+        Once your request has been approve by our staff member, you will be getting a confirm e-mail.</string>
+    <string name="pickUpServiceBtnTx">Continue to request a pick up service </string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="phoneNum">Phone</string>
+    <string name="numbersOfItems">Please enter the numbers of items that you are going to donate.
+        \nYou can leave a comment on the items or a short description of your items</string>
+    <string name="clothing">Clothing</string>
+    <string name="houseWare">House Ware</string>
+    <string name="furniture">Furniture</string>
+    <string name="electronic">Electronic Device</string>
+    <string name="sportEquipment">Sport Equipment</string>
+    <string name="totalItems">Total Items</string>
 </resources>
