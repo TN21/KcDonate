@@ -15,6 +15,7 @@ public class PickUpServicePage2 extends AppCompatActivity {
     EditText enterEleDevice;
     TextView totalItemsTx;
     Button requestBtn;
+    Button addImage;
     int totalItems;
     int clothingNum=0;
     int houseWareNum=0;
@@ -36,6 +37,7 @@ public class PickUpServicePage2 extends AppCompatActivity {
         enterEleDevice = findViewById(R.id.enterEleDevice);
         enterFurniture = findViewById(R.id.enterFurniture);
         enterOthers = findViewById(R.id.enterOthers);
+        addImage = findViewById(R.id.addImage);
 
 
 

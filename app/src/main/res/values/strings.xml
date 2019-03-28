@@ -47,4 +47,6 @@
     <string name="others">Others</string>
     <string name="totalItems">Total Items</string>
     <string name="totalItemsSum"></string>
+    <string name="requestBtn">Request</string>
+    <string name="addImage">+ Images</string>
 </resources>
