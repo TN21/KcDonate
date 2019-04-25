@@ -49,4 +49,11 @@
     <string name="totalItemsSum"></string>
     <string name="requestBtn">Request</string>
     <string name="addImage">+ Images</string>
+    <string name="contactUs">Contact us
+        \n
+        \n 6400 N Cosby Ave
+        \n Kansas City, MO 64151</string>
+    <string name="callBtn">816-372-4777</string>
+    <string name="phoneNumber">call</string>
+    <string name="emailBtn">kcdonate@gmail.com</string>
 </resources>
