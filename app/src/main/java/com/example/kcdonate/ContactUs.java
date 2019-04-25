@@ -10,7 +10,7 @@ import android.widget.Button;
 public class ContactUs extends AppCompatActivity {
 
     private Button callBtn;
-    private Button emailBtn;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class ContactUs extends AppCompatActivity {
         setContentView(R.layout.activity_contact_us);
 
         callBtn = findViewById(R.id.callBtn);
-        emailBtn = findViewById(R.id.emailBtn);
+        //emailBtn = findViewById(R.id.emailBtn);
 
         callBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,17 +30,6 @@ public class ContactUs extends AppCompatActivity {
             }
         });
 
-        emailBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_SEND);
-                intent.setType("plain/text");
-                intent.putExtra(Intent.EXTRA_EMAIL, new String[] { "kcdonate@gmail.com" });
-                intent.putExtra(Intent.EXTRA_SUBJECT, "");
-                intent.putExtra(Intent.EXTRA_TEXT, "");
-                startActivity(Intent.createChooser(intent, ""));
 
-            }
-        });
     }
 }
